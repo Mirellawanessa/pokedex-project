@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokédex</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Pokédex</h1>
+    <input type="text" id="search" placeholder="Search Pokémon...">
+  </header>
+  <main>
+    <section id="pokemon-display">
+      <img id="pokemon-image" src="" alt="Pokémon">
+      <div id="details">
+        <h2 id="pokemon-name">---</h2>
+        <p><strong>ID:</strong> <span id="pokemon-id">---</span></p>
+        <p><strong>Type:</strong> <span id="pokemon-type">---</span></p>
+        <p><strong>Abilities:</strong> <span id="pokemon-abilities">---</span></p>
+      </div>
+    </section>
+    <section id="pokemon-list">
+      <h2>Pokémon List</h2>
+      <ul id="list"></ul>
+    </section>
+  </main>
+  <footer>
+    <p>Created by <strong>Mestre Pokémon</strong></p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

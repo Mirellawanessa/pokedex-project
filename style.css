@@ -1,0 +1,85 @@
+/* Estilo geral */
+body {
+    font-family: 'Press Start 2P', Arial, sans-serif;
+    background-color: #f6f6f6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  header {
+    background-color: #ef5350;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+  
+  header input {
+    margin-top: 10px;
+    padding: 8px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+  }
+  
+  main {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  #pokemon-display {
+    text-align: center;
+    width: 40%;
+    background: #fff;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+  }
+
+  #pokemon-display {
+    transition: transform 0.3s ease;
+  }
+  
+  #pokemon-display:hover {
+    transform: scale(1.05);
+  }
+  
+  #list li:hover {
+    background-color: #ef5350;
+    color: white;
+    transition: background-color 0.2s ease;
+  }
+  
+  
+  #pokemon-image {
+    width: 200px;
+    height: 200px;
+  }
+  
+  #pokemon-list {
+    width: 40%;
+    background: #fff;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    overflow-y: scroll;
+    max-height: 400px;
+  }
+  
+  #list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #list li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.8rem;
+  }
+  
